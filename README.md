@@ -18,6 +18,7 @@ Start the application
   The voice assistant will categorize your expense or income and add it to your budget.
   You can set budgets and financial goals by speaking to the voice assistant.
   The voice assistant will provide updates on your budget and expenses through voice prompts.
+  
 There are several benefits of using a MoneyMate app for students, including:
 
 1. Better Financial Management: A budget app can help students to track their spending, plan their expenses, and avoid overspending. It can also help them to prioritize their spending, and identify areas where they can cut back on expenses to save money.
