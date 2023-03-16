@@ -27,4 +27,4 @@ There are several benefits of using a MoneyMate app for students, including:
 4. Improved Financial Literacy: Using a budget app can help students to develop a better understanding of financial concepts, such as budgeting, saving, and investing. By engaging with their finances on a regular basis, students can develop good financial habits that will serve them well in the future.
 5. Easy to Use: Many budget apps are designed with user-friendliness in mind, making them easy for students to use. Students can easily track their expenses, set up savings goals, and monitor their progress, all from their mobile device.
 
-Overall, using a budget app can be a valuable tool for students to manage their finances, improve their financial literacy, and reduce financial stress.
+Overall, using a budget app can be a valuable tool for students to manage their finances, improve their financial literacy, and reduce financial stress in thier college life.
