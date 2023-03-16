@@ -2,19 +2,19 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
   root: {
-    color:"white",
+    color:"black",
     borderRadius:"10px",
-    background: 'black',
+    background: 'white',
     opacity:'0.80',
     border: '1px solid white'
   },
   media: {
-    color:"white",
+    color:"black",
     height: 0,
     paddingTop: '56.25%', 
   },
   expand: {
-    color:"white",
+    color:"black",
     transform: 'rotate(0deg)',
     marginLeft: 'auto',
     transition: theme.transitions.create('transform', {
@@ -22,15 +22,15 @@ export default makeStyles((theme) => ({
     }),
   },
   expandOpen: {
-    color:"white",
+    color:"black",
     transform: 'rotate(180deg)',
   },
   cartContent: {
-    color:"white",
+    color:"black",
     paddingTop: 0,
   },
   divider: {
-    color:"white",
+    color:"black",
     margin: '20px 0',
   },
 }));

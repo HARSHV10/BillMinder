@@ -9,6 +9,7 @@ export default makeStyles(() => ({
   },
   button: {
     color:"white",
+    backgroundColor:"green",
     marginTop: '20px',
   },
 }));
