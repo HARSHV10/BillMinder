@@ -4,6 +4,9 @@
 }
 
 body {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assets/1145359.gif);
-    background-size: cover;
+    background: url(./assets/bg.gif);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
 }

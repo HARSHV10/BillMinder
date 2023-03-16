@@ -10,10 +10,10 @@ const DetailsCard = ({ title, subheader }) => {
   const classes = useStyles();
 
   return (
-    <Card className={title === 'Income' ? classes.income : classes.expense}>
+    <Card align="center" variant="h5"  className={title === 'Income' ? classes.income : classes.expense}>
       <CardHeader title={title} subheader={subheader} />
       <CardContent>
-        <Typography variant="h5">₹{total}</Typography>
+        <Typography align="center" variant="h5" >₹{total}</Typography>
         <Doughnut data={chartData} />
       </CardContent>
     </Card>

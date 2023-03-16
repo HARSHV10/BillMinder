@@ -12,11 +12,11 @@ const ExpenseTracker = () => {
   const { balance } = useContext(ExpenseTrackerContext);
   
   return (
-    <Card className={classes.root}>
-      <CardHeader  title="MoneyMate" subheader="By Team Mavericks" />
+    <Card  className={classes.root}>
+      <CardHeader  align="center" variant="h1" title="MoneyMate" subheader="By Team Mavericks"/>
       <CardContent>
-        <Typography align="center" variant="h5">Total Balance ₹{balance}</Typography>
-        <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
+        <Typography align="center" variant="h4">Total Balance ₹{balance}</Typography>
+        <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px', fontSize:"20px" }}>
           <InfoCard />
         </Typography>
         <Divider className={classes.divider} />
