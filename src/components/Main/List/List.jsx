@@ -9,7 +9,7 @@ const List = () => {
   const classes = useStyles();
   const { transactions, deleteTransaction } = useContext(ExpenseTrackerContext);
   const text = {
-    color: 'white'
+    color: 'black'
   }
   return (
 
@@ -22,15 +22,9 @@ const List = () => {
                 <MoneyOff />
               </Avatar>
             </ListItemAvatar>
-            <ListItemText InputLabelProps={{
-              style: {
-                color: 'white',
-              } }} secondaryTypographyProps={{ style: text }} primary={transaction.category} secondary={`₹${transaction.amount} - ${transaction.date}`} />
+            <ListItemText  secondaryTypographyProps={{ style: text }} primary={transaction.category} secondary={`₹${transaction.amount} - ${transaction.date}`} />
             <ListItemSecondaryAction>
-              <IconButton edge="end" InputLabelProps={{
-                style: {
-                  color: 'white',
-                } }} aria-label="delete" onClick={() => deleteTransaction(transaction.id)}>
+              <IconButton edge="end"  aria-label="delete" onClick={() => deleteTransaction(transaction.id)}>
                 <Delete />
               </IconButton>
             </ListItemSecondaryAction>
