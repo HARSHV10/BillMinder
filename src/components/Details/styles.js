@@ -2,17 +2,21 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
   income: {
-    borderRadius:'50px',
-    background: 'linear-gradient(#e66465, #9198e5)',
-    borderBottom: '10px solid rgba(0, 255, 0, 0.5)',
-    opacity:'0.80',
-    boxShadow: "3px 3px 3px 3px white"
+    color:"white",
+    borderRadius:'10px',
+    background: 'black',
+    // borderBottom: '5px solid rgba(0, 255, 0, 0.15)',
+    opacity:'0.65',
+    border: '1px solid white',
+    // boxShadow: "3px 3px 3px 3px white"
   },
   expense: {
-    borderRadius:'50px',
-    background: 'linear-gradient(#e66465, #9198e5)',
-    borderBottom: '10px solid rgba(0, 255, 0, 0.5)',
-    opacity:'0.80',
-    boxShadow: "3px 3px 3px 3px white"
+    color:"white",
+    borderRadius:'10px',
+    background: 'black',
+    // borderBottom: '5px solid rgba(0, 255, 0, 0.15)',
+    opacity:'0.65',
+    border: '1px solid white',
+    // boxShadow: "3px 3px 3px 3px white"
   },
 }));

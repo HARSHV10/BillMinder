@@ -3,6 +3,7 @@ import { Grid } from '@material-ui/core';
 import { SpeechState, useSpeechContext } from "@speechly/react-client";
 import { PushToTalkButton, PushToTalkButtonContainer } from '@speechly/react-ui';
 import "./background.css"
+import Navbar from './Navbar';
 import { Details, Main } from './components';
 import useStyles from './styles';
 

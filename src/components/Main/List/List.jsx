@@ -8,8 +8,11 @@ import useStyles from './styles';
 const List = () => {
   const classes = useStyles();
   const { transactions, deleteTransaction } = useContext(ExpenseTrackerContext);
-
+  const text = {
+    color: 'white'
+  }
   return (
+
     <MUIList dense={false} className={classes.list}>
       {transactions.map((transaction) => (
         <Slide direction="down" in mountOnEnter unmountOnExit key={transaction.id}>
@@ -19,9 +22,15 @@ const List = () => {
                 <MoneyOff />
               </Avatar>
             </ListItemAvatar>
-            <ListItemText primary={transaction.category} secondary={`₹${transaction.amount} - ${transaction.date}`} />
+            <ListItemText InputLabelProps={{
+              style: {
+                color: 'white',
+              } }} secondaryTypographyProps={{ style: text }} primary={transaction.category} secondary={`₹${transaction.amount} - ${transaction.date}`} />
             <ListItemSecondaryAction>
-              <IconButton edge="end" aria-label="delete" onClick={() => deleteTransaction(transaction.id)}>
+              <IconButton edge="end" InputLabelProps={{
+                style: {
+                  color: 'white',
+                } }} aria-label="delete" onClick={() => deleteTransaction(transaction.id)}>
                 <Delete />
               </IconButton>
             </ListItemSecondaryAction>
